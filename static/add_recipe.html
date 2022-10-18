@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body style="background-color: rgb(255,245,238);text-align: center;">
+    <h1>Add Recipe</h1>
+    <div>
+      <form action="/addrecipe" method="post">
+        <span>
+          <input name="title" type="text" placeholder="title" />
+          <input name="ingredients" type="text" placeholder="ingredients" />
+          <input name="minutes_to_ready" type="text" placeholder="minutes_to_ready" />
+          <input name="tags" type="text" placeholder="tags" />
+          <input name="image_address" type="text" placeholder="image_address" />
+        </span>
+        <br>
+        Choose Vegetarian :
+        <span>
+            <input type="radio" name="vegetarian" value="Yes" checked> Yes
+            <input type="radio" name="vegetarian" value="No"> No
+        </span>
+        <br>
+        <button type="submit" >Add</button>
+    </div>
+  </body>
+</html>
